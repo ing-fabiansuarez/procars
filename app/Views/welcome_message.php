@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<title>Medicio Bootstrap Template - Index</title>
+	<title>PROCARS - Pamplona</title>
 	<meta content="" name="description">
 	<meta content="" name="keywords">
 
@@ -56,13 +56,13 @@
 	<header id="header" class="fixed-top">
 		<div class="container d-flex align-items-center">
 
-			<a href="index.html" class="logo mr-auto"><img src="<?= base_url() ?>/public/img/corporative/logo.png" alt=""></a>
+			<a href="<?= base_url() ?>" class="logo mr-auto"><img src="<?= base_url() ?>/public/img/corporative/logo.png" alt=""></a>
 			<!-- Uncomment below if you prefer to use an image logo -->
 			<!-- <h1 class="logo mr-auto"><a href="index.html">Medicio</a></h1> -->
 
 			<nav class="nav-menu d-none d-lg-block">
 				<ul>
-					<li class="active"><a href="index.html">Home</a></li>
+					<li class="active"><a href="<?= base_url() ?>">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#services">Services</a></li>
 					<li><a href="#departments">Departments</a></li>
@@ -89,7 +89,7 @@
 				</ul>
 			</nav><!-- .nav-menu -->
 
-			<a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+			<a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span> Contactanos</a>
 
 		</div>
 	</header><!-- End Header -->
@@ -105,18 +105,32 @@
 				<!-- Slide 1 -->
 				<div class="carousel-item active" style="background-image: url(<?= base_url() ?>/public/img/slide/slide-2.webp)">
 					<div class="container">
-						<h2>Bienvenido a <span>PROCARS</span></h2>
-						<p>En PROCARS trabajamos para ser el mejor centro de mantenimiento automotriz del nororiente colombiano.</p>
-						<a href="#about" class="btn-get-started scrollto">NOSOTROS</a>
+						<h2>Bienvenido a</h2>
+						<img class="img-fluid" src="<?= base_url() ?>/public/img/corporative/logo.png">
+						<p><br>En PROCARS trabajamos para ser el mejor centro de mantenimiento automotriz del nororiente colombiano.</p>
+
+						<a href="#about" class="btn-get-started scrollto">QUIENES SOMOS</a>
+						<a href="https://www.youtube.com/watch?v=BIrhmzL_bdA" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"><i class="icofont-play-alt-2"></i> Ver Video </a>
+
+
+
+
+
 					</div>
 				</div>
 
 				<!-- Slide 2 -->
 				<div class="carousel-item" style="background-image: url(<?= base_url() ?>/public/img/slide/slide-1.jpg)">
 					<div class="container">
-						<h2>Lorem Ipsum Dolor</h2>
-						<p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
-						<a href="#about" class="btn-get-started scrollto">Read More</a>
+						<h2>Nuestros servicios</h2>
+
+						<img class="img-portada" src="<?= base_url() ?>/public/img/corporative/portada.jpg">
+						<p><br>Contamos con el mejor equipo, especializado para brindarte ayuda, recueda estamos para servirte!!!</p>
+						
+							<a href="#services" class="btn-get-started scrollto">NUESTROS SERVICIOS</a>
+							<a href="https://www.youtube.com/watch?v=BIrhmzL_bdA" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"><i class="icofont-play-alt-2"></i> Ver Video </a>
+					
+
 					</div>
 				</div>
 
@@ -126,6 +140,7 @@
 						<h2>Sequi ea ut et est quaerat</h2>
 						<p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
 						<a href="#about" class="btn-get-started scrollto">Read More</a>
+						<a href="https://www.youtube.com/watch?v=BIrhmzL_bdA" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"><i class="icofont-play-alt-2"></i> Ver Video </a>
 					</div>
 				</div>
 
@@ -193,9 +208,9 @@
 			<div class="container" data-aos="zoom-in">
 
 				<div class="text-center">
-					<h3>In an emergency? Need help now?</h3>
-					<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<a class="cta-btn scrollto" href="#appointment">Make an Make an Appointment</a>
+					<h3>Mecánica automotriz? Electrónica automotriz? Necesitas ayuda?</h3>
+					<p>Te brindamos toda la ayuda que necesites!!</p>
+					<a class="cta-btn scrollto" href="#services">Nuestros Servicios</a>
 				</div>
 
 			</div>
@@ -206,35 +221,110 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2>About Us</h2>
-					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+					<h2>Nosotros</h2>
+					<p>En PROCARS trabajamos para ser el mejor centro de mantenimiento automotriz del nororiente colombiano. Nuestro propósito es garantizar calidad, eficiencia y cumplimiento a nuestros clientes por medio de la implementación de tecnología de punta, talento humano calificado y la mejor política de atención. Estamos ubicados en Pamplona Norte de Santander y próximamente en otras ciudades.</p>
 				</div>
 
 				<div class="row">
-					<div class="col-lg-6" data-aos="fade-right">
-						<img src="assets/img/about.jpg" class="img-fluid" alt="">
-					</div>
-					<div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-						<h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-						<p class="font-italic">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua.
-						</p>
-						<ul>
-							<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-							<li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-							<li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-						</ul>
-						<p>
-							Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-							velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-							culpa qui officia deserunt mollit anim id est laborum
-						</p>
-					</div>
+					<!-- ======= Featured Services Section ======= -->
+					<section id="featured-services" class="featured-services">
+						<div class="container" data-aos="fade-up">
+
+							<div class="row">
+								<div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+									<div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+										<div class="icon"><i class="icofont-heart-beat"></i></div>
+										<h4 class="title"><a href="">Misión</a></h4>
+										<p class="description">Ofrecer el mejor centro de mantenimiento automotriz en Pamplona. Trabajamos con entusiasmo para que nuestros clientes tengan en sus vehículos una experiencia de transporte cómoda, segura y confiable. </p>
+									</div>
+								</div>
+
+								<div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+									<div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+										<div class="icon"><i class="icofont-badge"></i></div>
+										<h4 class="title"><a href="">Visión</a></h4>
+										<p class="description">Para el año 2025, seremos el principal proveedor de soluciones para el sector automotriz en el Nororiente colombiano.</p>
+									</div>
+								</div>
+
+
+
+							</div>
+
+						</div>
+					</section><!-- End Featured Services Section -->
+
 				</div>
 
 			</div>
 		</section><!-- End About Us Section -->
+		<!-- ======= Services Section ======= -->
+		<section id="services" class="services services">
+			<div class="container" data-aos="fade-up">
+
+				<div class="section-title">
+					<h2>Services</h2>
+					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+						<div class="icon"><i class="icofont-heart-beat"></i></div>
+						<h4 class="title"><a href="">Lorem Ipsum</a></h4>
+						<p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+					</div>
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+						<div class="icon"><i class="icofont-drug"></i></div>
+						<h4 class="title"><a href="">Dolor Sitema</a></h4>
+						<p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+					</div>
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+						<div class="icon"><i class="icofont-dna-alt-2"></i></div>
+						<h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+						<p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+					</div>
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+						<div class="icon"><i class="icofont-heartbeat"></i></div>
+						<h4 class="title"><a href="">Magni Dolores</a></h4>
+						<p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					</div>
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+						<div class="icon"><i class="icofont-disabled"></i></div>
+						<h4 class="title"><a href="">Nemo Enim</a></h4>
+						<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+					</div>
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+						<div class="icon"><i class="icofont-autism"></i></div>
+						<h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+						<p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- End Services Section -->
+
+		<!-- ======= Gallery Section ======= -->
+		<section id="gallery" class="gallery">
+			<div class="container" data-aos="fade-up">
+
+				<div class="section-title">
+					<h2>Gallery</h2>
+					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+
+				<div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100">
+					<a href="<?= base_url() ?>/public/img/gallery/gallery-1.jpg" class="venobox" data-gall="gallery-carousel"><img src="<?= base_url() ?>/public/img/gallery/gallery-1.jpg" alt=""></a>
+					<a href="<?= base_url() ?>/public/img/gallery/gallery-2.jpg" class="venobox" data-gall="gallery-carousel"><img src="<?= base_url() ?>/public/img/gallery/gallery-2.jpg" alt=""></a>
+					<a href="<?= base_url() ?>/public/img/gallery/gallery-3.jpg" class="venobox" data-gall="gallery-carousel"><img src="<?= base_url() ?>/public/img/gallery/gallery-3.jpg" alt=""></a>
+					<a href="<?= base_url() ?>/public/img/gallery/gallery-4.jpg" class="venobox" data-gall="gallery-carousel"><img src="<?= base_url() ?>/public/img/gallery/gallery-4.jpg" alt=""></a>
+					<a href="<?= base_url() ?>/public/img/gallery/gallery-5.jpg" class="venobox" data-gall="gallery-carousel"><img src="<?= base_url() ?>/public/img/gallery/gallery-5.jpg" alt=""></a>
+					<a href="<?= base_url() ?>/public/img/gallery/gallery-6.jpg" class="venobox" data-gall="gallery-carousel"><img src="<?= base_url() ?>/public/img/gallery/gallery-6.jpg" alt=""></a>
+					<a href="<?= base_url() ?>/public/img/gallery/gallery-7.jpg" class="venobox" data-gall="gallery-carousel"><img src="<?= base_url() ?>/public/img/gallery/gallery-7.jpg" alt=""></a>
+					<a href="<?= base_url() ?>/public/img/gallery/gallery-8.jpg" class="venobox" data-gall="gallery-carousel"><img src="<?= base_url() ?>/public/img/gallery/gallery-8.jpg" alt=""></a>
+				</div>
+
+			</div>
+		</section><!-- End Gallery Section -->
 
 		<!-- ======= Counts Section ======= -->
 		<section id="counts" class="counts">
@@ -316,50 +406,6 @@
 			</div>
 		</section><!-- End Features Section -->
 
-		<!-- ======= Services Section ======= -->
-		<section id="services" class="services services">
-			<div class="container" data-aos="fade-up">
-
-				<div class="section-title">
-					<h2>Services</h2>
-					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-				</div>
-
-				<div class="row">
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-						<div class="icon"><i class="icofont-heart-beat"></i></div>
-						<h4 class="title"><a href="">Lorem Ipsum</a></h4>
-						<p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-						<div class="icon"><i class="icofont-drug"></i></div>
-						<h4 class="title"><a href="">Dolor Sitema</a></h4>
-						<p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-						<div class="icon"><i class="icofont-dna-alt-2"></i></div>
-						<h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-						<p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-						<div class="icon"><i class="icofont-heartbeat"></i></div>
-						<h4 class="title"><a href="">Magni Dolores</a></h4>
-						<p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-						<div class="icon"><i class="icofont-disabled"></i></div>
-						<h4 class="title"><a href="">Nemo Enim</a></h4>
-						<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-						<div class="icon"><i class="icofont-autism"></i></div>
-						<h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-						<p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-					</div>
-				</div>
-
-			</div>
-		</section><!-- End Services Section -->
 
 		<!-- ======= Appointment Section ======= -->
 		<section id="appointment" class="appointment section-bg">
@@ -655,28 +701,6 @@
 			</div>
 		</section><!-- End Doctors Section -->
 
-		<!-- ======= Gallery Section ======= -->
-		<section id="gallery" class="gallery">
-			<div class="container" data-aos="fade-up">
-
-				<div class="section-title">
-					<h2>Gallery</h2>
-					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-				</div>
-
-				<div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100">
-					<a href="assets/img/gallery/gallery-1.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-1.jpg" alt=""></a>
-					<a href="assets/img/gallery/gallery-2.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-2.jpg" alt=""></a>
-					<a href="assets/img/gallery/gallery-3.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-3.jpg" alt=""></a>
-					<a href="assets/img/gallery/gallery-4.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-4.jpg" alt=""></a>
-					<a href="assets/img/gallery/gallery-5.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-5.jpg" alt=""></a>
-					<a href="assets/img/gallery/gallery-6.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-6.jpg" alt=""></a>
-					<a href="assets/img/gallery/gallery-7.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-7.jpg" alt=""></a>
-					<a href="assets/img/gallery/gallery-8.jpg" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-8.jpg" alt=""></a>
-				</div>
-
-			</div>
-		</section><!-- End Gallery Section -->
 
 		<!-- ======= Pricing Section ======= -->
 		<section id="pricing" class="pricing">
@@ -763,150 +787,69 @@
 			</div>
 		</section><!-- End Pricing Section -->
 
-		<!-- ======= Frequently Asked Questioins Section ======= -->
-		<section id="faq" class="faq section-bg">
-			<div class="container" data-aos="fade-up">
-
-				<div class="section-title">
-					<h2>Frequently Asked Questioins</h2>
-					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-				</div>
-
-				<ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
-
-					<li>
-						<a data-toggle="collapse" class="" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="icofont-simple-up"></i></a>
-						<div id="faq1" class="collapse show" data-parent=".faq-list">
-							<p>
-								Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-							</p>
-						</div>
-					</li>
-
-					<li>
-						<a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="icofont-simple-up"></i></a>
-						<div id="faq2" class="collapse" data-parent=".faq-list">
-							<p>
-								Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-							</p>
-						</div>
-					</li>
-
-					<li>
-						<a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="icofont-simple-up"></i></a>
-						<div id="faq3" class="collapse" data-parent=".faq-list">
-							<p>
-								Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-							</p>
-						</div>
-					</li>
-
-					<li>
-						<a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="icofont-simple-up"></i></a>
-						<div id="faq4" class="collapse" data-parent=".faq-list">
-							<p>
-								Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-							</p>
-						</div>
-					</li>
-
-					<li>
-						<a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="icofont-simple-up"></i></a>
-						<div id="faq5" class="collapse" data-parent=".faq-list">
-							<p>
-								Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-							</p>
-						</div>
-					</li>
-
-					<li>
-						<a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="icofont-simple-up"></i></a>
-						<div id="faq6" class="collapse" data-parent=".faq-list">
-							<p>
-								Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-							</p>
-						</div>
-					</li>
-
-				</ul>
-
-			</div>
-		</section><!-- End Frequently Asked Questioins Section -->
 
 		<!-- ======= Contact Section ======= -->
 		<section id="contact" class="contact">
 			<div class="container">
 
 				<div class="section-title">
-					<h2>Contact</h2>
-					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+					<h2>Contáctanos</h2>
+					<p>Por cualquiera de estos medios es muy fácil contactarnos.</p>
 				</div>
 
 			</div>
 
-			<div>
-				<iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-			</div>
+
 
 			<div class="container">
 
 				<div class="row mt-5">
 
-					<div class="col-lg-6">
+					<div class="col-lg-5">
 
 						<div class="row">
 							<div class="col-md-12">
-								<div class="info-box">
-									<i class="bx bx-map"></i>
-									<h3>Our Address</h3>
-									<p>A108 Adam Street, New York, NY 535022</p>
-								</div>
+
+								<a href="https://g.page/PRO-CARS-Norte-de-santander?share" target="_blank">
+									<div class="info-box">
+										<i class="bx bx-map"></i>
+										<h3>Dirección</h3>
+										<p>Cll 4 # 8-100 Pamplona, Norte de Santander</p>
+									</div>
+								</a>
+
 							</div>
 							<div class="col-md-6">
-								<div class="info-box mt-4">
-									<i class="bx bx-envelope"></i>
-									<h3>Email Us</h3>
-									<p>info@example.com<br>contact@example.com</p>
-								</div>
+								<a href="mailto:procarspamplona@gmail.com">
+									<div class="info-box mt-4">
+										<i class="bx bx-envelope"></i>
+										<h3>Nuestro Email</h3>
+										<p>procarspamplona@gmail.com</p>
+									</div>
+								</a>
 							</div>
+
 							<div class="col-md-6">
-								<div class="info-box mt-4">
-									<i class="bx bx-phone-call"></i>
-									<h3>Call Us</h3>
-									<p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-								</div>
+								<a href="https://api.whatsapp.com/send?phone=573118672380&text=Quiero%20saber%20m%C3%A1s...">
+									<div class="info-box mt-4">
+										<i class="bx bx-phone-call"></i>
+										<h3>WhatsApp</h3>
+										<p>3118672380</p>
+									</div>
+								</a>
 							</div>
+
+
 						</div>
+						<br>
 
 					</div>
 
-					<div class="col-lg-6">
-						<form action="forms/contact.php" method="post" role="form" class="php-email-form">
-							<div class="form-row">
-								<div class="col form-group">
-									<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-									<div class="validate"></div>
-								</div>
-								<div class="col form-group">
-									<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-									<div class="validate"></div>
-								</div>
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-								<div class="validate"></div>
-							</div>
-							<div class="form-group">
-								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-								<div class="validate"></div>
-							</div>
-							<div class="mb-3">
-								<div class="loading">Loading</div>
-								<div class="error-message"></div>
-								<div class="sent-message">Your message has been sent. Thank you!</div>
-							</div>
-							<div class="text-center"><button type="submit">Send Message</button></div>
-						</form>
+					<div class="col-lg-7">
+						<div>
+							<iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8026535950694!2d-72.64642628522442!3d7.37600229467765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6881d04a4956c7%3A0xa0faee94f488fb3!2sPRO%20CARS!5e0!3m2!1ses!2sco!4v1621548618400!5m2!1ses!2sco" frameborder="0" allowfullscreen></iframe>
+						</div>
+
 					</div>
 
 				</div>
@@ -922,26 +865,20 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-4 col-md-6 barralateral">
 						<div class="footer-info">
-							<h3>Medicio</h3>
+							<h3>Síguenos</h3>
 							<p>
-								A108 Adam Street <br>
-								NY 535022, USA<br><br>
-								<strong>Phone:</strong> +1 5589 55488 55<br>
-								<strong>Email:</strong> info@example.com<br>
+
 							</p>
 							<div class="social-links mt-3">
-								<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-								<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-								<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-								<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-								<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+								<a href="https://www.facebook.com/procarspamplona/photos" class="facebook"><i class="bx bxl-facebook"></i></a>
+								<a href="https://www.instagram.com/procars_pamplona/?hl=es-la" class="instagram"><i class="bx bxl-instagram"></i></a>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-2 col-md-6 footer-links">
+					<div class="col-lg-4 col-md-6 footer-links">
 						<h4>Useful Links</h4>
 						<ul>
 							<li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -963,14 +900,7 @@
 						</ul>
 					</div>
 
-					<div class="col-lg-4 col-md-6 footer-newsletter">
-						<h4>Our Newsletter</h4>
-						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-						<form action="" method="post">
-							<input type="email" name="email"><input type="submit" value="Subscribe">
-						</form>
 
-					</div>
 
 				</div>
 			</div>
@@ -978,14 +908,10 @@
 
 		<div class="container">
 			<div class="copyright">
-				&copy; Copyright <strong><span>Medicio</span></strong>. All Rights Reserved
+				<strong><span>PROCARS</span></strong>. Todos los derechos reservados.
 			</div>
 			<div class="credits">
-				<!-- All the links in the footer should remain intact. -->
-				<!-- You can delete the links only if you purchased the pro version. -->
-				<!-- Licensing information: https://bootstrapmade.com/license/ -->
-				<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-				Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+				Pamplona, Norte de Santander
 			</div>
 		</div>
 	</footer><!-- End Footer -->
