@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 a {
@@ -93,18 +93,18 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  background: #3fbbc0;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #00bb2d;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #5ec6ca;
-  color: #fff;
+  background: #fff;
+  color: #00bb2d;
 }
 
 /*--------------------------------------------------------------
@@ -315,14 +315,17 @@ h6 {
 }
 
 .appointment-btn:hover {
-  background: #65c9cd;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 @media (max-width: 768px) {
   .appointment-btn {
-    margin: 0 48px 0 0;
-    padding: 6px 18px;
+    
+    padding: 6px 10px;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-right: 48px;
   }
 }
 
@@ -340,10 +343,11 @@ h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  margin-top: 8px;
 }
 
 .mobile-nav-toggle i {
-  color: #555555;
+  color: #fff;
 }
 
 .mobile-nav {
@@ -629,7 +633,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fcfc;
+  background-color: #fcf7f7;
 }
 
 .section-title {
@@ -775,7 +779,7 @@ section {
 }
 
 .featured-services .description {
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -789,6 +793,11 @@ section {
   color: #fff;
 }
 
+.featured-services p, h4 {
+  color: #000;
+}
+
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -797,7 +806,7 @@ section {
       rgba(114, 114, 114, 0.719),
       rgba(112, 112, 112, 0.432)
     ),
-    url(../../public/img/corporative/portada.jpg) fixed center center;
+    url(../../public/img/corporative/portadafija.jpg) fixed center center;
   background-size: cover;
   color: #fff;
   background-size: cover;
@@ -954,7 +963,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #3fbbc0;
+  color: #ff0000;
   font-size: 40px;
   overflow: hidden;
   padding-top: 20px;
@@ -962,7 +971,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  box-shadow: 0px 0 25px rgba(63, 187, 192, 0.3);
+  box-shadow: 0px 0 25px rgba(192, 63, 63, 0.3);
 }
 
 .services .title {
@@ -988,7 +997,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #3fbbc0;
+  background: #ff0000;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1371,11 +1380,11 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #e0f4f5 !important;
+  background-color: #f5e0e0 !important;
 }
 
 .gallery .owl-dot.active {
-  background-color: #3fbbc0 !important;
+  background-color: #ff0000 !important;
 }
 
 .gallery .gallery-carousel .owl-stage-outer {
@@ -1383,7 +1392,7 @@ section {
 }
 
 .gallery .gallery-carousel .center {
-  border: 6px solid #3fbbc0;
+  border: 6px solid #ff0000;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -1559,7 +1568,7 @@ section {
 .contact .info-box {
   border-top: 3px solid #ff0000;
   border-radius: 15px;
-  background-color: rgba(218, 154, 154, 0.26);
+  background-color: #fcf7f7;
   color: #000;
   text-align: center;
   box-shadow: 0 0 20px rgba(214, 215, 216, 0.5);
@@ -1701,7 +1710,7 @@ section {
   background: #252525;
   padding: 0 0 30px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 #footer .footer-top {
@@ -1769,7 +1778,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #3fbbc0;
+  color: #ff0000;
   font-size: 18px;
   line-height: 1;
 }
@@ -1792,7 +1801,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #3fbbc0;
+  color: #ff0000;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1848,6 +1857,7 @@ section {
   width: 100%;
   border: 10px solid #393939;
   border-radius: 50px;
+  max-width: 500px;
 }
 .btn-watch-video {
   font-size: 24px;
